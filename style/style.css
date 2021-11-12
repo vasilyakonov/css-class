@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Grammatika";
+    src: url("../assets/GramatikaDemoBold.woff");
+}
+
+h1 {
+    font-family: "Grammatika";
+    font-size: 30pt;
+    color:red;
+    margin-left:1%;
+}
+i {
+    color:blue;
+}
+
+i:hover {
+    color:red;
+}
+
+h2 {
+    font-family:monospace;
+    margin-left:1vw;
+}
+
+body {
+    background-color:peru;
+}
+
+p {
+    font-family:monospace;
+    margin-right: 50%;
+    margin-left: 5%;
+    margin-top:1px;
+    margin-bottom:10px;
+}
+
+.image {
+    margin-left: 3%;
+
+}
+
+.image img {
+    width: 20%;
+}
+
+.gallery {
+    display:flex;
+    width:20%;
+    flex-direction:row;
+    margin-left: 3%;
+
+}
+
+.item {
+    flex:1;
+}
+.item img {
+    width:100%;
+    box-shadow: -10px 10px 8px yellow;
+}
+
+
+
+
